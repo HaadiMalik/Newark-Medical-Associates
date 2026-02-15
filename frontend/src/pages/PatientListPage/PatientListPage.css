@@ -1,0 +1,41 @@
+/* PatientListPage.css */
+
+.container {
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.registerButton {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.tableCell {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.errorMessage {
+    color: red;
+}

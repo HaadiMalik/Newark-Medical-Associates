@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+}

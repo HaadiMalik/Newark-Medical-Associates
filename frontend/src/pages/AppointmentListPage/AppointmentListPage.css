@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scheduleButton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.noAppointments {
+    margin-top: 20px;
+}
+
+.appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.appointmentTable th, 
+.appointmentTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.appointmentTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.actionLink {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.statusActive {
+    font-weight: bold;
+    color: green;
+}
+
+.statusCancelled {
+    font-weight: bold;
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+}
